@@ -55,3 +55,6 @@ button {
     margin-top: 15px;
     font-size: 15px;
 }
+.main {
+    flex: 1;
+}
