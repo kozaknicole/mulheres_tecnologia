@@ -37,16 +37,16 @@ p {}
     object-fit: cover;
 }
 
-nav {}
-
 li {
     display: inline-block;
-
-
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
 }
 
 li a {
-    font-size: 30px;
+    text-decoration: none;
+    color: black;
 
 }
 
