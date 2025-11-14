@@ -84,3 +84,10 @@ button {
     height: 300px;
     object-fit: cover;
 }
+
+@media screen and (max-width:50px){
+    .img{
+        width: 150px;
+        height: auto;
+    }
+}
