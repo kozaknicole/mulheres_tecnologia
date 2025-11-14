@@ -85,9 +85,32 @@ button {
     object-fit: cover;
 }
 
-@media screen and (max-width:50px){
-    .img{
-        width: 150px;
-        height: auto;
+@media screen and (max-width: 600px) {
+
+    .cabecalho {
+        flex-direction: column;
+        font-size: 22px;
+        gap: 15px;
+    }
+
+    .imgcentro {
+        max-width: 180px;
+    }
+
+    li {
+        font-size: 22px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    #titulo {
+        font-size: 24px;
+        text-align: center;
     }
 }
